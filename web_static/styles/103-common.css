@@ -1,0 +1,73 @@
+/* General styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #181818;
+    font-size: 16px;
+    font-family: "Circular", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container */
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    width: 100%;
+}
+
+/* intro-section */
+.intro-section {
+    display: block;
+    text-align: center;
+}
+
+.tagline p span {
+    color: green;
+}
+
+/* feature-section */
+.feature-section {
+    text-align: center;
+}
+
+/* Feature image */
+.feature-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Cover Image */
+.cover-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Deployed Button */
+.deployed-button {
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.deployed-button:hover {
+    background-color: #0056b3;
+}
+
+/* Feature */
+.feature {
+    margin-bottom: 30px;
+}
+
+.feature-image {
+    width: 100%;
+    height: auto;
+}

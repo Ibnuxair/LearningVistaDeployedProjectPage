@@ -1,0 +1,1 @@
+** Web Static Learning Vista

@@ -1,0 +1,139 @@
+/* Default styles for the browser */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    width: 100vw;
+    height: 100px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+}
+
+header .headerContent{
+    width: 90%; /* This is the inner width of the content inside of your header (80%, etc) */
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+header .logo div{
+    margin-top: 10px;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .logo img{
+    height: 50px;
+    margin-top: 5px; /* Optical alignment of the logo */
+}
+
+.priNav {
+    float: right;
+    height: 100%;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+}
+
+.megaMenu {
+    margin: 0;
+    padding: 0;
+}
+
+.priNav li{
+    margin-top: 10px; 
+    position: relative;
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+.priNav li:last-of-type{
+    margin-right: 0;
+}
+
+.priNav span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.priNav a {
+    color: #333333;
+}
+
+.megaContent {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 5px;
+    background-color: #CCCCFA;
+    border: 1px solid #575757;
+    border-radius: 4px;
+    width: 200px; /* Adjust width as needed */
+}
+
+.menuItem:hover .megaContent {
+    display: block;
+}
+
+.megaContent p {
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+.search-button {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 130px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button img {
+    height: 17px;
+    margin-top: 5px; /* Optical alignment of the logo */
+
+}
+
+.talk-to-sales-button {
+    font-size: 14px;
+    background-color: white;
+    padding: 10px 20px;
+    color: purple;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid #333;
+}
+
+.talk-to-sales-button:hover {
+    background-color: #223FB0;
+    color: white;
+}
+
+.sign-in-button {
+    font-size: 14px;
+    background-color: #AA0004;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.headerContainer .sign-in-button:hover {
+    background-color: #223FB0;
+}

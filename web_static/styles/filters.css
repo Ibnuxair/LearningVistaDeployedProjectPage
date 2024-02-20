@@ -97,7 +97,7 @@ header .logo img{
     padding: 10px 20px;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-left: 130px;
+    margin-left: 150px;
     border: none;
     cursor: pointer;
 }
@@ -108,7 +108,7 @@ header .logo img{
 
 }
 
-.talk-to-sales-button {
+.e-forms-button {
     font-size: 14px;
     background-color: white;
     padding: 10px 20px;
@@ -119,7 +119,7 @@ header .logo img{
     border: 1px solid #333;
 }
 
-.talk-to-sales-button:hover {
+.e-forms:hover {
     background-color: #223FB0;
     color: white;
 }
